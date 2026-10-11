@@ -1,0 +1,30 @@
+# sources/ — inbox de material bruto de {{Especialista/Método}}
+
+Jogue aqui **qualquer coisa** sobre {{Especialista}} que você queira que a skill
+eventualmente absorva: ePubs, PDFs, transcrições, playbooks, anotações, exports
+do seu Wiki LLM.
+
+## Como funciona
+
+Este é um **arquivo morto** até ser destilado. A skill **NÃO lê** estes arquivos
+numa conversa normal — material cru é grande e desorganizado, estouraria o contexto.
+O que a skill usa são as **referências curadas** em `../references/*.md`.
+
+## Pra material virar inteligência da skill
+
+Jogue o arquivo aqui e diga numa conversa:
+> "ingere o `{{exemplo.epub}}` na skill do {{Especialista}}"
+
+O Claude segue `../INGEST.md`: lê → extrai só os protocolos/frameworks/frases
+duráveis → destila na referência certa (ou cria uma nova). Também funciona no meio
+de uma conversa: "salva isso na skill do {{Especialista}}".
+
+## Formatos
+
+- **Melhor:** `.md`, `.txt`, `.epub`, `.pdf` (texto selecionável).
+- **Evite:** PDF escaneado/imagem (precisa OCR), áudio puro (precisa transcrição).
+
+## Wiki LLM / outras pastas
+
+Não precisa copiar tudo pra cá. Pode me apontar o caminho na hora, ou criar um symlink:
+`ln -s /caminho/da/biblioteca ~/.claude/skills/{{skill-slug}}/sources/wiki`

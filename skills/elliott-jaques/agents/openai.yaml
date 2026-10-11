@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elliott Jaques"
+  short_description: "Mede níveis de trabalho e desenha organizações"
+  default_prompt: "Use $elliott-jaques para medir o nível dos papéis e diagnosticar esta estrutura."

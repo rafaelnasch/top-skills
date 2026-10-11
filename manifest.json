@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/rafaelnasch/top-skills",
+  "skills": [
+    {
+      "name": "criar-skill-ouro",
+      "path": "skills/criar-skill-ouro",
+      "zip": "downloads/criar-skill-ouro.zip",
+      "files": 9,
+      "archive_sha256": "1a41ecf8b9826aed612fe3c68ff48759783e3c9338402fae95e3ce3e0724e63e"
+    },
+    {
+      "name": "gerador-de-prompt",
+      "path": "skills/gerador-de-prompt",
+      "zip": "downloads/gerador-de-prompt.zip",
+      "files": 12,
+      "archive_sha256": "13f816945583073ebf23a4a7f6cb5ea89f58c22a5fffa63f99e8371ed6c576a1"
+    },
+    {
+      "name": "book-to-skill",
+      "path": "skills/book-to-skill",
+      "zip": "downloads/book-to-skill.zip",
+      "files": 27,
+      "archive_sha256": "b7f5051a7c9ce286140738ceb908ff60238f28f0e6e5852289e47b1e186679d4"
+    },
+    {
+      "name": "humanizer",
+      "path": "skills/humanizer",
+      "zip": "downloads/humanizer.zip",
+      "files": 5,
+      "archive_sha256": "635a1525c1377f7ec309ed722f5a1ac4a03d74d21fac8f2e48d392eb13a89335"
+    },
+    {
+      "name": "last30days",
+      "path": "skills/last30days",
+      "zip": "downloads/last30days.zip",
+      "files": 120,
+      "archive_sha256": "11ba19c53f2df4b3d2f3a12d4c668acf0f902674bf000ab60e0e5d87da59df34"
+    },
+    {
+      "name": "notebooklm",
+      "path": "skills/notebooklm",
+      "zip": "downloads/notebooklm.zip",
+      "files": 2,
+      "archive_sha256": "6249b9b580239a4348d124733e25a31f44b48b4722a78ffc53f4778d522511db"
+    },
+    {
+      "name": "elliott-jaques",
+      "path": "skills/elliott-jaques",
+      "zip": "downloads/elliott-jaques.zip",
+      "files": 18,
+      "archive_sha256": "52f8b3d6703ef427b47fed991822df75c56f1cd0591cfe65ca4321d069a98cc7"
+    },
+    {
+      "name": "jesus-cristo",
+      "path": "skills/jesus-cristo",
+      "zip": "downloads/jesus-cristo.zip",
+      "files": 18,
+      "archive_sha256": "125ed50e46b718da117d432641201a8e9d1e9f632bc0ebcdffb7d9d78ae268ff"
+    }
+  ]
+}

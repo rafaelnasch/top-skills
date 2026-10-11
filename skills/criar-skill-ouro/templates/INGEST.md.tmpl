@@ -1,0 +1,31 @@
+# INGEST — como a skill de {{Especialista/Método}} cresce com o tempo
+
+Esta skill consome **referências curadas** (`references/*.md`), não material bruto.
+Este arquivo é o playbook pra transformar fonte nova em inteligência — sem inchar contexto.
+
+## Duas camadas
+
+1. **`sources/` (bruto)** — ePubs, PDFs, transcrições, exports. O usuário joga aqui livremente. **Nada aqui é lido em conversa normal.**
+2. **`references/*.md` (curado)** — conciso, load-on-demand. É daqui que o roteador lê.
+
+A skill só melhora quando alguém **destila** (1) → (2). Esse alguém é o Claude, sob pedido.
+
+## Gatilhos de ingestão
+
+- usuário joga arquivo em `sources/` e diz "atualiza/ingere a skill";
+- aponta arquivo no Wiki LLM e diz "puxa isso pra skill";
+- no meio da conversa: "salva isso na skill do {{Especialista}}".
+
+## Passo a passo
+
+1. **Localize a fonte.** Em `sources/`, no Wiki, ou na conversa. ePub/PDF grande: extraia texto (`pandoc x.epub -t plain -o /tmp/x.txt`) e leia em pedaços com objetivo — não despeje inteiro no contexto.
+2. **Extraia só o durável:** frameworks nomeados, protocolos passo-a-passo, regras de decisão, frases canônicas, casos fortes, heurísticas/números. **Ignore** enchimento e repetição.
+3. **Decida o destino.** Bate com referência existente → **atualize** (adicione seção). Domínio novo → **crie** `references/NN-<slug>.md` e **adicione a linha na tabela do `SKILL.md`** com o gatilho.
+4. **Mantenha enxuto:** ~30–120 linhas por referência. Se passar de ~150, quebre com ponteiros.
+5. **Registre procedência:** rodapé `<!-- fontes: arquivo / episódio, ingerido em AAAA-MM-DD -->`.
+6. **Não duplique:** `grep` antes de criar; se o conceito existe, refine.
+
+## Princípio
+
+A skill não melhora por acumular arquivos — melhora por **destilar** arquivos em regras
+que o roteador aplica. Bruto entra em `sources/`; inteligência sai em `references/`.

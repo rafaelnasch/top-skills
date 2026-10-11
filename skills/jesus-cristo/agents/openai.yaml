@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jesus Cristo"
+  short_description: "Discipulado cristocêntrico com fidelidade bíblica"
+  default_prompt: "Use $jesus-cristo para discernir esta situação à luz das Escrituras e definir um passo concreto."
