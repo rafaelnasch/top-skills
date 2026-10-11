@@ -1,6 +1,8 @@
 # top-skills
 
-Oito skills selecionadas por Rafael Nasch para compartilhar com o Dr. Sharbo. Cada pasta contém o `SKILL.md` e os arquivos de apoio necessários. As cópias públicas foram adaptadas para uso fora do ambiente original.
+Oito skills com instruções, referências, templates, scripts e bibliotecas de fontes. Cada pasta contém o `SKILL.md` e os arquivos de apoio necessários. As cópias públicas foram adaptadas para uso fora do ambiente original.
+
+Consulte [FONTES.md](FONTES.md) para ver os materiais incluídos em `sources/`: conceitos, fichas bibliográficas, estudos e documentação dos projetos. Esses arquivos também acompanham os ZIPs individuais. Os índices orientam a leitura sob demanda; não é preciso carregar toda a biblioteca para usar uma skill.
 
 | Skill | Para que serve | Exemplo de uso |
 |---|---|---|
@@ -32,7 +34,7 @@ O caminho de instalação segue o [guia oficial do Claude](https://support.claud
 - [ ] Baixe e descompacte o repositório.
 - [ ] No **Codex**, copie a pasta da skill para `~/.agents/skills/<nome-da-skill>/`.
 - [ ] No **Claude Code**, copie a pasta da skill para `~/.claude/skills/<nome-da-skill>/`.
-- [ ] Preserve a pasta inteira, incluindo `references/`, `scripts/`, `assets/` e outros arquivos que existirem.
+- [ ] Preserve a pasta inteira, incluindo `references/`, `sources/`, `scripts/`, `assets/` e outros arquivos que existirem.
 - [ ] Se uma skill com o mesmo nome já estiver instalada, escolha como atualizar antes de copiar.
 - [ ] Abra uma nova sessão e confirme que a skill aparece.
 

@@ -13,7 +13,7 @@ Um prompt bem construído tem **4 elementos** (taxonomia do Prompt Engineering G
 3. **Separe instrução de dados** com delimitadores — tags XML são o padrão de produção (`<instrucoes>`, `<dados>`, `<exemplos>`): endereçáveis, aninháveis e o modelo respeita as fronteiras.
 4. **Contrato de saída** (o coração): estrutura (seções/JSON/tabela), campos obrigatórios, critérios de qualidade, formato de entrega. + Cláusula de parada: *"se faltar informação crítica, liste exatamente o que falta e pare."*
 5. **Exemplos, se o formato for difícil de descrever** (2–5, formato rigorosamente consistente — Min et al.: o formato é o que ensina). Inclua um caso-limite.
-6. **Instruções críticas perto do fim** ([[fim-do-prompt-tem-mais-peso]]); dados volumosos no meio.
+6. **Organize e teste a posição das instruções** ([fim-do-prompt-tem-mais-peso](../sources/conceitos/fim-do-prompt-tem-mais-peso.md)). Deixe o contrato de saída fácil de localizar e compare posições com casos reais do modelo-alvo.
 7. **Passe anti-negativas:** reescreva cada "não faça X" como "faça Y".
 
 ## Heurísticas / regras
@@ -37,4 +37,4 @@ Quando o prompt for reutilizável/mestre, use este esqueleto de 12 seções: obj
 
 - Tarefa de raciocínio → adicione o degrau de `03`. Conhecimento/tools → `04`. Se virar system prompt → `05`. Pra revisar o que você criou → checklist de `06`.
 
-<!-- fontes: prompt-engineering-guide-dair, rafael-template-mestre-de-prompt, min-rethinking-demonstrations (notas de curadoria), ingerido em 2026-07-05. Atualize via INGEST.md -->
+<!-- fontes: prompt-engineering-guide-dair, template-mestre-de-prompt, min-rethinking-demonstrations (notas de curadoria), ingerido em 2026-07-05. Atualize via INGEST.md -->

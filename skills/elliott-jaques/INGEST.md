@@ -1,11 +1,14 @@
 # INGEST — como a skill do Elliott Jaques cresce com o tempo
 
+O índice [`sources/README.md`](sources/README.md) apresenta as fontes públicas já incluídas. Este playbook trata da revisão de material novo em `sources/inbox/`; essas entradas ficam separadas da biblioteca publicada.
+
+
 Esta skill consome **referências curadas** (`references/*.md`), não material bruto.
 Este arquivo é o playbook pra transformar fonte nova em inteligência — sem inchar contexto.
 
 ## Duas camadas
 
-1. **`sources/` (bruto)** — ePubs, PDFs, transcrições, exports, notas do wiki.
+1. **`sources/inbox/` (bruto)** — ePubs, PDFs, transcrições, exports, notas do wiki.
    O usuário joga aqui livremente. **Nada aqui é lido em conversa normal.**
 2. **`references/*.md` (curado)** — conciso, load-on-demand. É daqui que o roteador lê.
 
@@ -13,7 +16,7 @@ A skill só melhora quando alguém **destila** (1) → (2). Esse alguém é o Cl
 
 ## Gatilhos de ingestão
 
-- usuário joga arquivo em `sources/` e diz "atualiza/ingere a skill";
+- usuário joga arquivo em `sources/inbox/` e diz "atualiza/ingere a skill";
 - aponta nota de sua biblioteca pessoal e diz "puxa isso pra skill";
 - no meio da conversa: "salva isso na skill do Jaques".
 
@@ -29,7 +32,7 @@ A skill só melhora quando alguém **destila** (1) → (2). Esse alguém é o Cl
 
 ## Passo a passo
 
-1. **Localize a fonte.** Em `sources/`, no wiki, ou na conversa. ePub/PDF grande:
+1. **Localize a fonte.** Em `sources/inbox/`, no wiki, ou na conversa. ePub/PDF grande:
    extraia texto (`pandoc x.epub -t plain -o /tmp/x.txt`) e leia em pedaços com
    objetivo — não despeje inteiro no contexto.
 2. **Extraia só o durável:** frameworks nomeados, protocolos passo-a-passo, regras
@@ -46,4 +49,4 @@ A skill só melhora quando alguém **destila** (1) → (2). Esse alguém é o Cl
 ## Princípio
 
 A skill não melhora por acumular arquivos — melhora por **destilar** arquivos em
-regras que o roteador aplica. Bruto entra em `sources/`; inteligência sai em `references/`.
+regras que o roteador aplica. Bruto entra em `sources/inbox/`; inteligência sai em `references/`.

@@ -5,57 +5,702 @@
       "name": "criar-skill-ouro",
       "path": "skills/criar-skill-ouro",
       "zip": "downloads/criar-skill-ouro.zip",
-      "files": 9,
-      "archive_sha256": "1a41ecf8b9826aed612fe3c68ff48759783e3c9338402fae95e3ce3e0724e63e"
+      "files": 22,
+      "archive_sha256": "8a3cc164a6d725a8d0f4f3befa4e20f9d0c8c7eb09e1d33411e00894e6b184f3",
+      "source_materials": 12,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "5ac74519f533bb7f061734f2d46fd6a897c84828488ffee18956ede8496c754e"
+        },
+        {
+          "path": "sources/conceitos/autoria-de-skills-em-tres-estagios.md",
+          "sha256": "93d1c36f974dc894220315ff6708dd46f8ff73ebaae05e8d4f5b2c5fb9ab2c85"
+        },
+        {
+          "path": "sources/conceitos/description-como-gatilho.md",
+          "sha256": "f7f813f59469295d09b0a107b469b1c49b02d375babd995be69fce26abd72250"
+        },
+        {
+          "path": "sources/conceitos/engenharia-reversa-para-skills.md",
+          "sha256": "1eac48bb1521431279de5fbc728f02f5abcde76b7d2150ad2c8179ad86316d02"
+        },
+        {
+          "path": "sources/conceitos/skill-de-agente.md",
+          "sha256": "a82db21bad89ef87a9563d90ae0623f16225f8fa2fa11e3fc14c3176561a4c8a"
+        },
+        {
+          "path": "sources/conceitos/skill-de-sintese-artefato-reutilizavel.md",
+          "sha256": "24d03462e3e727ee50f0230a8e5223c74e8025e1828c407a25c8b2db2d6ef6d1"
+        },
+        {
+          "path": "sources/conceitos/skill-deterministica-hibrida-aberta.md",
+          "sha256": "c95587bee8443f57bbbe64abd3a2ec1f1e683df1e94937676950915e4262c2fc"
+        },
+        {
+          "path": "sources/conceitos/skill-envelopando-mcp.md",
+          "sha256": "5b067e98a39649d7c0cec41db53147e51b708c93a2b74997a3b8185d7eb42940"
+        },
+        {
+          "path": "sources/conceitos/skill-lente-de-contexto.md",
+          "sha256": "6955a5fb71d906bf8a57b052aa65f00e46a8f33a567a5c2db8bbd2b03ff889ba"
+        },
+        {
+          "path": "sources/conceitos/skill-reflexo-da-capacidade.md",
+          "sha256": "f379d0d2e10a0128cdb8694aca6c00d75b046e0ef5fe1e2def2765191c399dbb"
+        },
+        {
+          "path": "sources/conceitos/skills-atomicas-componiveis.md",
+          "sha256": "9049eb1621e64ddd0e526d4240abc4424c47e218cbebd74b6f3303adb88a957e"
+        },
+        {
+          "path": "sources/estudos/agent-skills-padrao-aberto-estudo.md",
+          "sha256": "e4fdef96a962c7ab642a06c881bd0a457c14f5945f73b4e8e6d5ec0c204385d4"
+        },
+        {
+          "path": "sources/fontes/agent-skills-open-standard.md",
+          "sha256": "58d99da683e6cdc55b324dd85508aad397e8c3e8e01b02002c82610a7dabe18b"
+        }
+      ]
     },
     {
       "name": "gerador-de-prompt",
       "path": "skills/gerador-de-prompt",
       "zip": "downloads/gerador-de-prompt.zip",
-      "files": 12,
-      "archive_sha256": "13f816945583073ebf23a4a7f6cb5ea89f58c22a5fffa63f99e8371ed6c576a1"
+      "files": 83,
+      "archive_sha256": "a035b0cf7ee34651519c9032d5fe674883dacef153fdef5373bea95bf4485ffc",
+      "source_materials": 71,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "7d5698c80cecc8e73d84b7f552fc2efd24f20e61babba3949d6fb00066579ba3"
+        },
+        {
+          "path": "sources/conceitos/active-prompt.md",
+          "sha256": "e6a421f3f54b047c18a05991c1f48ba057c790a42af85bc940ad86231861c824"
+        },
+        {
+          "path": "sources/conceitos/ape-automatic-prompt-engineer.md",
+          "sha256": "81a0d90d3ff6c019d039ceb8b400af1f3fe0731b1e7c652e0edb8157967d38ec"
+        },
+        {
+          "path": "sources/conceitos/aprendizado-em-contexto.md",
+          "sha256": "b5aa25cc0a99913e5ea9ccb4d51ea4b9deaadad9fcae119bc8bd47dcecf564ee"
+        },
+        {
+          "path": "sources/conceitos/art-automatic-reasoning-tool-use.md",
+          "sha256": "309868d93d30e45ae78c49d0624815539591c02236eb4d47e9def37aa69afc59"
+        },
+        {
+          "path": "sources/conceitos/auto-critica-de-llm.md",
+          "sha256": "b110fb367f4fbdd5d5aded303e62b1f7ecb7f666be3fbf0668d7377b0eec1e2a"
+        },
+        {
+          "path": "sources/conceitos/chain-of-thought.md",
+          "sha256": "2a92f31e7194c8037c4c24c2602e3beb22111e0cea71591bdfd09c6f0f77472d"
+        },
+        {
+          "path": "sources/conceitos/configuracoes-de-inferencia.md",
+          "sha256": "f0f3d6697059b035b39d6e7123007195fe7565738b9f47435da9fcb41dce66ad"
+        },
+        {
+          "path": "sources/conceitos/curse-of-instructions.md",
+          "sha256": "f813638acffb3807cecfa91f671f3a094b55369c19eaac3b1f371cfd0db338b5"
+        },
+        {
+          "path": "sources/conceitos/directional-stimulus-prompting.md",
+          "sha256": "39f070d448e475a1319dbcfaca33ae7178de05ad54279ef9308d42d109ba48cd"
+        },
+        {
+          "path": "sources/conceitos/elementos-de-um-prompt.md",
+          "sha256": "75dd5031a194e64679a4b6d29c5124a21f975d99668c0408457b8ed49ec6fe0e"
+        },
+        {
+          "path": "sources/conceitos/engenharia-de-prompts.md",
+          "sha256": "8daf33fa0bd94667c76364b20daad55237b11e141c9e4b99ee18033ee5e18c46"
+        },
+        {
+          "path": "sources/conceitos/few-shot-prompting.md",
+          "sha256": "41f2fb87ae48f954256de4971ebc32e55eb0f31494edd56cf1821c5c271d243d"
+        },
+        {
+          "path": "sources/conceitos/fim-do-prompt-tem-mais-peso.md",
+          "sha256": "8d35fc9d4f5c789fabf1795284f1c0de1650755fc69f80049ed3a401e40d5b23"
+        },
+        {
+          "path": "sources/conceitos/generated-knowledge-prompting.md",
+          "sha256": "9d019a9fc9c45a8b62454532d4fa9b3359c4f4a048fd2ad101d6f906a326e4fc"
+        },
+        {
+          "path": "sources/conceitos/gerador-de-prompts-interativo.md",
+          "sha256": "d4007ad39a09cedaf9723a00fda08bbf2bc1ba3d26ff0e50d7128d4777038e1b"
+        },
+        {
+          "path": "sources/conceitos/graphprompt.md",
+          "sha256": "a46fb23748bf58309059860b17584af7693f2aba32b848703b006e52ebb181f9"
+        },
+        {
+          "path": "sources/conceitos/injecoes-de-seguranca-runtime.md",
+          "sha256": "b4c0493f7b4faac1ed6005a5b26c731b6c299d9e2bf67a85c6f10b9eb2c4e228"
+        },
+        {
+          "path": "sources/conceitos/instruction-tuning.md",
+          "sha256": "3c8dbac56e7060fa6480c114ba00c9e3e7d0e6205d85f5043890ecb1b5ab66c8"
+        },
+        {
+          "path": "sources/conceitos/meta-prompting.md",
+          "sha256": "b6b95ce5376adfac057754510b99e3cad887584622bc2ae49610fc35b60bdee4"
+        },
+        {
+          "path": "sources/conceitos/multimodal-cot.md",
+          "sha256": "46ae5e4a3e3b05a9f0f838c276f19009e69c5936115f1898164b59b79febae15"
+        },
+        {
+          "path": "sources/conceitos/opro-llm-como-otimizador.md",
+          "sha256": "ced4e7069558cbf66b65d8bc5cd83d6d2a0c65ba06afa102cd21d60bc4e7918c"
+        },
+        {
+          "path": "sources/conceitos/otimizacao-automatica-de-prompts.md",
+          "sha256": "67973ce2d7176b5ab9e39e134cd45396a07164ba0dd531728a3f1a76c0e066e9"
+        },
+        {
+          "path": "sources/conceitos/pal.md",
+          "sha256": "fac1cebf91c2f13e06c8fd3d747bec5e662b6298c5569c782ea4a27dbc242c47"
+        },
+        {
+          "path": "sources/conceitos/prompt-chaining.md",
+          "sha256": "b47b887eb0768f6c622f321d3592ecd781513459ceaf8353b59561de15ef8929"
+        },
+        {
+          "path": "sources/conceitos/rag.md",
+          "sha256": "ba7becac6a1bfb7f644fdf6d155e04b4b7b884260aa136b22ef4af42dca71e97"
+        },
+        {
+          "path": "sources/conceitos/react-prompting.md",
+          "sha256": "11df56848425b35e6b85b147597ebb974f622f2490c6249ab59198a4e227a3d7"
+        },
+        {
+          "path": "sources/conceitos/reflexion.md",
+          "sha256": "b99183c5a94626135f06b1c1f84e30be959e9f03492ab464d53e0b714bdabbb1"
+        },
+        {
+          "path": "sources/conceitos/rlhf.md",
+          "sha256": "1bc033f89fa170b0fc07c35df279b71eabcc4e6cc7837990c4e46e4ba3d3506c"
+        },
+        {
+          "path": "sources/conceitos/self-consistency.md",
+          "sha256": "d08c32f471f634dbc8f9610c01c9e3e719474752774ce4940012716c3a5a1eb2"
+        },
+        {
+          "path": "sources/conceitos/soft-prompts.md",
+          "sha256": "7524dae2d84051b78d772cf18f3fa7d822533aeb66b88e71d79ca646a82b5b1c"
+        },
+        {
+          "path": "sources/conceitos/system-prompt-de-producao.md",
+          "sha256": "2c902502bdba01d00a0c8c54bb9ec3e1c52586a5a2ff6178c45d9d6b228895c8"
+        },
+        {
+          "path": "sources/conceitos/template-mestre-de-prompt.md",
+          "sha256": "fa6191f337b38dab5b1efd45935edc05309104f5871f46850e22018f57c6aad5"
+        },
+        {
+          "path": "sources/conceitos/tree-of-thoughts.md",
+          "sha256": "db2a7fd956b647342e58a6c2811f767cfdb6a75ca90511da10f8fd15f6e339df"
+        },
+        {
+          "path": "sources/conceitos/zero-shot-cot.md",
+          "sha256": "2ef291a13d0e981b1bd95d2b69aa745becffa0165d8058b457503977bff11ad9"
+        },
+        {
+          "path": "sources/conceitos/zero-shot-prompting.md",
+          "sha256": "9a2b4edae0f00ff7973299586e64808f9218b9bd0d0bb0d80294a0c6940eca8b"
+        },
+        {
+          "path": "sources/fontes/ai-driven-development-formacao-dev.md",
+          "sha256": "05b9c31fb3296b807d414021e9fe0e5cee4c4c2c4c2e9ef74b1dedd599d169d9"
+        },
+        {
+          "path": "sources/fontes/anthropic-prompt-chaining-docs.md",
+          "sha256": "28fe8142b778ca6c0e4ed51cdf6c22a23c29c6fd6e08a25432e49e755e88776a"
+        },
+        {
+          "path": "sources/fontes/brown-gpt3-few-shot-learners.md",
+          "sha256": "9664422599df7b23d6d0395a64cbbee793b5e652b09eae02af118193a5e15dd8"
+        },
+        {
+          "path": "sources/fontes/christiano-rl-human-preferences.md",
+          "sha256": "2972b3b0979200b0da2cb090cc6220f7a0f012a243959197857a2571c891327f"
+        },
+        {
+          "path": "sources/fontes/claude-system-prompts-producao.md",
+          "sha256": "cdda8dc94acaff2b09a605be681effbf00ad08bd7717db0fcfb6802506d7089f"
+        },
+        {
+          "path": "sources/fontes/diao-active-prompt.md",
+          "sha256": "6be941dd0e7ac9d5341b8b625aeeecd477df17bc630ebc197fe9cd6226793830"
+        },
+        {
+          "path": "sources/fontes/eric-jang-llm-self-critique.md",
+          "sha256": "5d3ac855ebfade97df58f51bf9e4153a54e45eb11bb81fce4d441f0c559c6a51"
+        },
+        {
+          "path": "sources/fontes/gao-pal.md",
+          "sha256": "19b5378737ddb8b9ae97bd21d7658d5b3dab520bee9a5e983d63a7170476dd98"
+        },
+        {
+          "path": "sources/fontes/gao-rag-survey.md",
+          "sha256": "6a669cd90b151dcb19822ae511c01f180b00e3561105d86e73c38ecc2072cfce"
+        },
+        {
+          "path": "sources/fontes/huang-kosmos-1.md",
+          "sha256": "66628bd3d6fa604cca5104da52bdf13ba7cf8e937847b4b1aa669c8327fedd86"
+        },
+        {
+          "path": "sources/fontes/kojima-zero-shot-reasoners.md",
+          "sha256": "eda19463d55fa653bbd21e31dc8b9b90b54d53fd5f70b0dbc058313e1ce32761"
+        },
+        {
+          "path": "sources/fontes/lester-prompt-tuning.md",
+          "sha256": "5ce13c29a1aeefd557626bbe3f7ee31d22ffa6bca4953b30559f0be55a1af6c3"
+        },
+        {
+          "path": "sources/fontes/li-directional-stimulus.md",
+          "sha256": "8e81b6d4fd9f5d38d33421487419db5224be1be6ac509e2ac4ed1abc9f512d59"
+        },
+        {
+          "path": "sources/fontes/li-liang-prefix-tuning.md",
+          "sha256": "44e7a93aaedcef849b206116ab6e8075224f0be25a91954c60ae2106bc95da4d"
+        },
+        {
+          "path": "sources/fontes/liu-generated-knowledge.md",
+          "sha256": "ee4f3514757554aae26e5382d680bbe8d77def1ee31713f2ac4ca7d8b190fa6e"
+        },
+        {
+          "path": "sources/fontes/liu-graphprompt.md",
+          "sha256": "f4b82ea43b79f05bd6af4aa928cabcc3b1008deea27d4e0e47c2c6178d733151"
+        },
+        {
+          "path": "sources/fontes/long-tree-of-thought-guided.md",
+          "sha256": "9812d646d4449a877f4607acb5a606e917b1e33babe3eeb96f0566b814c77ef2"
+        },
+        {
+          "path": "sources/fontes/meta-ai-rag-blog.md",
+          "sha256": "1e4b8cf8ddee4c753efbe9fe0cf863cfc81d686e7301d69c52c6826564c8a0c9"
+        },
+        {
+          "path": "sources/fontes/min-rethinking-demonstrations.md",
+          "sha256": "649a5165ba6c10c9a9e0bd9ee6967cbd12b4ebcfb1e5e1a5901f8d41ee7cedd9"
+        },
+        {
+          "path": "sources/fontes/osmani-how-to-write-good-spec.md",
+          "sha256": "dfbb3829d8d857130cfe3276811d4eb0e0cac89ed6c9f23e478b0eb1bde7b401"
+        },
+        {
+          "path": "sources/fontes/paranjape-art.md",
+          "sha256": "92fc3a7ea0689a60c1919bc6ada78dbba8d3e6b34a303a570626442a98355cde"
+        },
+        {
+          "path": "sources/fontes/prompt-engineering-guide-dair.md",
+          "sha256": "9502a30fd23a7e47aef245d190352a55986b2935157e44780a69310d674d9f44"
+        },
+        {
+          "path": "sources/fontes/shin-autoprompt.md",
+          "sha256": "dc123b3b90ba127469feee8340f91d016aa9dc1731667ebb5ee8bc2c95019411"
+        },
+        {
+          "path": "sources/fontes/shinn-reflexion.md",
+          "sha256": "d6286f8f3f3f19b5c678efc8deb6d94af7aac2c662c98885bfda7f42ef6faadf"
+        },
+        {
+          "path": "sources/fontes/sun-prompt-oirl.md",
+          "sha256": "5398dcf7341cc05882c299e95453e57dfab775c5007362373bfefd2a46a86a16"
+        },
+        {
+          "path": "sources/fontes/wang-self-consistency.md",
+          "sha256": "c3438b6ed11958de2a1aae4b2dbd17c345eb3ebc481779526342b04a68259093"
+        },
+        {
+          "path": "sources/fontes/wei-chain-of-thought.md",
+          "sha256": "43e1bb15123fc14ea7d45aaae1db5df7b59b1e28b6ce14b01b0277a468c5d584"
+        },
+        {
+          "path": "sources/fontes/wei-flan-zero-shot-learners.md",
+          "sha256": "a5624c8d561bebe617a360e237c30858e9648ce7a2fa7b38adac42c411e31293"
+        },
+        {
+          "path": "sources/fontes/yang-opro.md",
+          "sha256": "0fc1f0c719af1ce3d7c7412a2ae14dacfe977dbad31607af3501c228a8c02816"
+        },
+        {
+          "path": "sources/fontes/yao-tree-of-thoughts.md",
+          "sha256": "7225d0e6e47046e741bb56fddd3bc01f5e4300005f0b293e3792d66f143e4565"
+        },
+        {
+          "path": "sources/fontes/zhang-meta-prompting.md",
+          "sha256": "8a13709e97ac46509dfcef9b1f4f504cf23f540d01549bddf37a04eebc0b0448"
+        },
+        {
+          "path": "sources/fontes/zhang-multimodal-cot.md",
+          "sha256": "1d4bf2cf7b1fd212e56140e80be4af5aed5dadd826d3e4cbd26a3478c9d6cbeb"
+        },
+        {
+          "path": "sources/fontes/zhou-ape.md",
+          "sha256": "8c3035b80bd9456a2bbafd73514303f59c46a5ff15081ff0a0e3e43e0261d058"
+        },
+        {
+          "path": "sources/mapas/engenharia-de-prompts-moc.md",
+          "sha256": "d9351cfdec43e95cb1dfcf94d63376a789cfa6a59655fc933719f0ee3b71301a"
+        },
+        {
+          "path": "sources/templates/criador-de-prompts-interativo.md",
+          "sha256": "3ce72b2369043ff7fda5e519371b4eaf726a63021142c260d362e3b709290894"
+        },
+        {
+          "path": "sources/templates/instrucao-mestra-12-secoes.md",
+          "sha256": "5c05ce4ba1e6846d839c0e43d157b1def1810893e9c2627ff85e80d574f603f2"
+        }
+      ]
     },
     {
       "name": "book-to-skill",
       "path": "skills/book-to-skill",
       "zip": "downloads/book-to-skill.zip",
-      "files": 27,
-      "archive_sha256": "b7f5051a7c9ce286140738ceb908ff60238f28f0e6e5852289e47b1e186679d4"
+      "files": 36,
+      "archive_sha256": "78a1c56004e68b742c65c3057c766130f9eba7f30fcf97e1c4583f75cc675c8b",
+      "source_materials": 8,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "78a5255670b1c96406afbd0a23ffbf33f73140a7bebc83a17d1dc5ae5029a12e"
+        },
+        {
+          "path": "sources/projeto/README.md",
+          "sha256": "a67571c2a4fcb6bf26117167fb0dbe9f62402b3f38a304225533c73770add464"
+        },
+        {
+          "path": "sources/projeto/docs/architecture.md",
+          "sha256": "71acb03506628cb554f14c88da70385093377c2619b52f335e5fdf2a214e84f9"
+        },
+        {
+          "path": "sources/projeto/docs/faq.md",
+          "sha256": "08e4997f291da7e8ee2eff3b41754fdfbf2f3aa9cd5b0416296ca8d490125617"
+        },
+        {
+          "path": "sources/projeto/docs/how-it-works.md",
+          "sha256": "9f0c8dbdafb24f43da25a72cee2e9ad1eb7bb0d7df0e07af4760bf1067cb01f2"
+        },
+        {
+          "path": "sources/projeto/docs/install.md",
+          "sha256": "b6ee64b3b26aebaccbb09a57456f44e9f7d82c9111620b17c12a80de93186e38"
+        },
+        {
+          "path": "sources/projeto/docs/performance.md",
+          "sha256": "45e285df9da7edd15f486b8e4f82d0b50261928f8417bc64c93d66a9694be03f"
+        },
+        {
+          "path": "sources/projeto/docs/research/progressive-disclosure-evals.md",
+          "sha256": "cb0264a8cc1b30446ee2e68a5159cf0e3a18284086d37c9c18fcaf82c1ba3684"
+        },
+        {
+          "path": "sources/projeto/docs/usage.md",
+          "sha256": "2da3c4eeeadded4c3d5b55aa16ed026c4e674c654b8aedb2bd24797e5524ced2"
+        }
+      ]
     },
     {
       "name": "humanizer",
       "path": "skills/humanizer",
       "zip": "downloads/humanizer.zip",
-      "files": 5,
-      "archive_sha256": "635a1525c1377f7ec309ed722f5a1ac4a03d74d21fac8f2e48d392eb13a89335"
+      "files": 7,
+      "archive_sha256": "67e2013b6d5da29c3af698a06b016499be1944238f0b3512ff70233f10bb24d4",
+      "source_materials": 1,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "2ae7ce4148605530407fbf082c68ffb43b2bce4294b4d63c21caa8af883d6ef2"
+        },
+        {
+          "path": "sources/fontes-do-metodo.md",
+          "sha256": "df2cffd902525dc2ba8b24bd5bc0c2f6f8f2d991c7bda34e102b54e3c7e4837c"
+        }
+      ]
     },
     {
       "name": "last30days",
       "path": "skills/last30days",
       "zip": "downloads/last30days.zip",
-      "files": 120,
-      "archive_sha256": "11ba19c53f2df4b3d2f3a12d4c668acf0f902674bf000ab60e0e5d87da59df34"
+      "files": 122,
+      "archive_sha256": "27359a010692e5e85b1c1a0896f84b0a077e196420736409326aa1e28def3be1",
+      "source_materials": 1,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "28f5ae49bc2d71d3526bb92201a65d711f715d1eb06681d8ef47b63618e4a629"
+        },
+        {
+          "path": "sources/fontes-de-pesquisa.md",
+          "sha256": "bf784b6470340bab949f49e7bbca0d847984e77d7a58a817b083a31cc6f76408"
+        }
+      ]
     },
     {
       "name": "notebooklm",
       "path": "skills/notebooklm",
       "zip": "downloads/notebooklm.zip",
-      "files": 2,
-      "archive_sha256": "6249b9b580239a4348d124733e25a31f44b48b4722a78ffc53f4778d522511db"
+      "files": 9,
+      "archive_sha256": "318585d0ec648a52fc2c60cbb22ee507d3007fccb761c4ae48eb85d84f904e61",
+      "source_materials": 6,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "637a847eb1707a2c1fa8cbc4da6e6b2841f198787154605b3cf135f77d9eca14"
+        },
+        {
+          "path": "sources/projeto/README.md",
+          "sha256": "e2b403a92cf4b05ce559d4c3332b97d1a1590b6875e12ef475c1d684bd02e79a"
+        },
+        {
+          "path": "sources/projeto/docs/cli-reference.md",
+          "sha256": "cc22eb9af4f6c5e6b1ae7ff02632c50c19c5ae6a20bdd4b77d64f7a38dd75609"
+        },
+        {
+          "path": "sources/projeto/docs/configuration.md",
+          "sha256": "f7d3b86eadc3c9e802cc73130613f342bb8703d19ab6ea927c66dc050efe0944"
+        },
+        {
+          "path": "sources/projeto/docs/python-api.md",
+          "sha256": "1b8ac65f518ae8221aa448839668b82dbe2295a7da1078587f5f96c071928810"
+        },
+        {
+          "path": "sources/projeto/docs/stability.md",
+          "sha256": "b49f2c46c62177a0dcbc2f0b644f20a77593949bf86b736aa89674d0adea0219"
+        },
+        {
+          "path": "sources/projeto/docs/troubleshooting.md",
+          "sha256": "e7889707e7041c0a9faabe10a05f7895ad7a027749ccfc56dca41d029b97190c"
+        }
+      ]
     },
     {
       "name": "elliott-jaques",
       "path": "skills/elliott-jaques",
       "zip": "downloads/elliott-jaques.zip",
-      "files": 18,
-      "archive_sha256": "52f8b3d6703ef427b47fed991822df75c56f1cd0591cfe65ca4321d069a98cc7"
+      "files": 36,
+      "archive_sha256": "d410654ad2429c5a4bc2aed37ef323ca1784c1be03988a2390325b226d000a56",
+      "source_materials": 18,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "e9ba4c110ebf011862a6d97ae93cbfd0e63c44e3d5ef270c7e42f789e2f98283"
+        },
+        {
+          "path": "sources/capacidade-humana-cip.md",
+          "sha256": "fbc7ffab3838771a12dbc2149bedfcb0a53136123c27cc5446def75cf9c3a191"
+        },
+        {
+          "path": "sources/crise-da-meia-idade.md",
+          "sha256": "17b64370ecc8214efdbf2d2fe30ccc0ce6ab830813f5e45225bea2f15aac7531"
+        },
+        {
+          "path": "sources/criticas-a-jaques.md",
+          "sha256": "77ea3336598d587bcc196653b22988187063394cca137f1d39bc3fab3baf679a"
+        },
+        {
+          "path": "sources/curvas-de-maturacao.md",
+          "sha256": "d35fb3cdbd68374d9dd5b3b202324c5157ba1801130a7cffad63d0636dbe68e5"
+        },
+        {
+          "path": "sources/defesa-social-contra-ansiedade.md",
+          "sha256": "6f06828668acba9e7ec25ef9806140528f082d2d15b8b8de3e433d7df482ed2f"
+        },
+        {
+          "path": "sources/elliott-jaques-moc.md",
+          "sha256": "f03db23cde89aaa9523acdb9b890caf2f822a0016c8369a87c7f6290e2b69b4d"
+        },
+        {
+          "path": "sources/elliott-jaques-pesquisa-profunda.md",
+          "sha256": "b781b1fe05e29501844d22d23efcd92b822f9f7e7df480aa188419219001d7ee"
+        },
+        {
+          "path": "sources/elliott-jaques.md",
+          "sha256": "6f4fbaf30fce7d71d3e8f24a77ad760774509a6442a0a14efa83cea63d5f7029"
+        },
+        {
+          "path": "sources/felt-fair-pay.md",
+          "sha256": "177a6327324f33c768fbbdae962126f49fb6d8fd19290a00e8ce0ddcf48175f7"
+        },
+        {
+          "path": "sources/fontes-publicas.md",
+          "sha256": "7f36d862467e20112a0c6925c8956a8adc704bfdbc6883a2056977f975ae447d"
+        },
+        {
+          "path": "sources/glacier-project.md",
+          "sha256": "bfbe0de1661b69691e055ed090755785ee9c5fa54ae55db99b02c215b94aa082"
+        },
+        {
+          "path": "sources/hierarquia-como-estrutura-natural.md",
+          "sha256": "143ed17bd0d725019fe8a2f00fc2a8192a931560c4322923a9ac3dc8876912c5"
+        },
+        {
+          "path": "sources/manager-once-removed.md",
+          "sha256": "20adbd64e88e5c4090a65eec2e91b26be8260bfb501f0069847ae7668c52edeb"
+        },
+        {
+          "path": "sources/organizacao-requerida.md",
+          "sha256": "a1f899bc9b4cf5deb2df54d3e1a2192a368370580c23d97752e5b5ba0af56f7d"
+        },
+        {
+          "path": "sources/quatro-autoridades-minimas-do-gerente.md",
+          "sha256": "00b2bca511537e45a18427ce8e5fb33a51d823872f9ecfa4051d3b773c510c2a"
+        },
+        {
+          "path": "sources/quatro-processos-mentais.md",
+          "sha256": "eea9923a81dc9b6d4a6213f2a5881647abb300168c6c71e4ac5bc12f652d0a1b"
+        },
+        {
+          "path": "sources/teoria-dos-sistemas-estratificados.md",
+          "sha256": "7998c2086aa216b59fcf92b833e15ab9ff4c86708b2284bf17253a7002e6b1f5"
+        },
+        {
+          "path": "sources/time-span-of-discretion.md",
+          "sha256": "4e69df23794b8bb216a0d55c7de44c81d90b16f2402a7d32edc2a37a322cf235"
+        }
+      ]
     },
     {
       "name": "jesus-cristo",
       "path": "skills/jesus-cristo",
       "zip": "downloads/jesus-cristo.zip",
-      "files": 18,
-      "archive_sha256": "125ed50e46b718da117d432641201a8e9d1e9f632bc0ebcdffb7d9d78ae268ff"
+      "files": 48,
+      "archive_sha256": "c2fb106a2a995297759abacaa550496944a1bfbe5c2ec99e2e2e7abf0e18d93f",
+      "source_materials": 30,
+      "source_files": [
+        {
+          "path": "sources/README.md",
+          "sha256": "c1292800ec1d27ed8cb840200561c8071361250dd4de8a0b8f855ca754e333bd"
+        },
+        {
+          "path": "sources/conceitos/ascensao-de-cristo.md",
+          "sha256": "56adb5ad4de18baf19a0c0facc9a423dce37db4e6d97efba0540f02587e5fac2"
+        },
+        {
+          "path": "sources/conceitos/conhecer-a-deus.md",
+          "sha256": "477b8b9d75f6791f5709dea9cfac5206253f26d2272b8fae297cdce2eb3a8f3d"
+        },
+        {
+          "path": "sources/conceitos/cordeiro-de-deus.md",
+          "sha256": "b7d284d964ee2c9b94bf1ec1ace44aa69727af509b12188e4c16a3d22a73853f"
+        },
+        {
+          "path": "sources/conceitos/cristo-em-vos.md",
+          "sha256": "8a9e8b318e40498219d1e59b94ccb958ed419ad1a2e23ae038479db378535826"
+        },
+        {
+          "path": "sources/conceitos/cristo-sumo-sacerdote.md",
+          "sha256": "b2a79e445b21c3ca5a9916f7764c032ffcb7d3093ac68c4a91ac8f96f659b283"
+        },
+        {
+          "path": "sources/conceitos/cristofanias.md",
+          "sha256": "3f5da81797ea880bf567dbdfd27b3527307694fd63fa9a941a848f2822c3e223"
+        },
+        {
+          "path": "sources/conceitos/divindade-de-cristo.md",
+          "sha256": "4d1cc90db01e0525e4858954d5b278fda63618495ef934781d267a635bf16b5e"
+        },
+        {
+          "path": "sources/conceitos/eu-sou-joanino.md",
+          "sha256": "bb4fd24a7fd86aa99da5a2f0686735563f6ec4603f69cd8056952e3ad6e90928"
+        },
+        {
+          "path": "sources/conceitos/expiacao.md",
+          "sha256": "c7639ce3295303f96d33cf5612bafa7af7fa741147b7503dc4ffe54608806ba6"
+        },
+        {
+          "path": "sources/conceitos/graca-nao-merito.md",
+          "sha256": "087e5aa8b29c03ddbc0d58121663d6f28329704e7c3afd621061965fec2ce937"
+        },
+        {
+          "path": "sources/conceitos/justificacao-pela-fe.md",
+          "sha256": "0e926f5b0b7eb9d242542a50234830ac1f589716ca903aa5602b0947c2d5bb06"
+        },
+        {
+          "path": "sources/conceitos/kenosis.md",
+          "sha256": "77265b3fba0d0770be9315e73b85f741c1cf16e3277041d19c17c978c5bd8b79"
+        },
+        {
+          "path": "sources/conceitos/parabolas-de-jesus.md",
+          "sha256": "6e2d351d57451336022909a45ae1dc379d175f9918c0a21bf125278e64a5f4a0"
+        },
+        {
+          "path": "sources/conceitos/pre-existencia-de-cristo.md",
+          "sha256": "648f1196bed831b33eea8206e772ff37f5b4ef2c00b90295161817d6575847d2"
+        },
+        {
+          "path": "sources/conceitos/profecias-messianicas.md",
+          "sha256": "a2d8cc2a9518ed7d5d199234346ce042417aaec0528d1f797430c2c1e591b573"
+        },
+        {
+          "path": "sources/conceitos/protoevangelho.md",
+          "sha256": "203ced53987d9d304d2cc1a519768d7821d2e13ad6bcc74b14f3d21cdf7d41f7"
+        },
+        {
+          "path": "sources/conceitos/quatro-evangelhos.md",
+          "sha256": "c0fd28d3e22a46b499a508c884fbc31ef1b9e2cb4e13032e5133ae02a15865bc"
+        },
+        {
+          "path": "sources/conceitos/reino-de-deus.md",
+          "sha256": "fcaec1b157319fe99acbf3796bdc35ef3e7a6269a84a77e4a8103cf89af25442"
+        },
+        {
+          "path": "sources/conceitos/ressurreicao-de-cristo.md",
+          "sha256": "19d12f6fc17f9bdda8ddec3e7a17d9fcdc39d211c5e4a8c0096a6fca5b9c75c7"
+        },
+        {
+          "path": "sources/conceitos/segunda-vinda.md",
+          "sha256": "2f689e992b1550a123712c097158e00ecccf203be93c62e1caa3fcc4d180b928"
+        },
+        {
+          "path": "sources/conceitos/sermao-do-monte.md",
+          "sha256": "c39c3ef8a7b14c0f3556afa3d2f316e0f24ce484d9b88004e4b871c0c19f6f9b"
+        },
+        {
+          "path": "sources/conceitos/sinais-de-jesus.md",
+          "sha256": "9e5d1aaa491de54a224491480866d3fb5736ad84b692eda05f4786c711da1a05"
+        },
+        {
+          "path": "sources/conceitos/substituicao-penal.md",
+          "sha256": "8dfc2245fa785fe2c2996497824b322b633d87b39faca158924c3689ac826ddb"
+        },
+        {
+          "path": "sources/conceitos/supremacia-de-cristo.md",
+          "sha256": "92a4d74c4be1c7ae8c5666ad230f35dbeb50070c521a87bda140487d8455d76d"
+        },
+        {
+          "path": "sources/conceitos/tipologia-biblica.md",
+          "sha256": "e0e321142b867a89b713cb10290987859d26841ff8547901a05365b36bc97226"
+        },
+        {
+          "path": "sources/conceitos/trindade.md",
+          "sha256": "9a81b2480ea4ed30fc951a789be1c7268cb9c22059f522beb1dbaacd9e2e9660"
+        },
+        {
+          "path": "sources/conceitos/uniao-hipostatica.md",
+          "sha256": "6aef35fec0db8100631ac88032fb51a04cb1444e2b2b02b8f0f4f3300a799b1a"
+        },
+        {
+          "path": "sources/conceitos/unidade-das-escrituras.md",
+          "sha256": "5ab89644d6523e02f310629330741d8cc96e97e3537fd311a478a0d890d11718"
+        },
+        {
+          "path": "sources/jesus-cristo-moc.md",
+          "sha256": "8c6fe109ac2bd2c70024e121f7fbeaa53c9eeb374a8c954c057b50355d9a7f2f"
+        },
+        {
+          "path": "sources/jesus-cristo-nove-dimensoes.md",
+          "sha256": "2b57aafc8e316930a912a7e48538fbea47c674a438a0db8ab01929a2b330c791"
+        }
+      ]
     }
-  ]
+  ],
+  "source_materials": 147
 }

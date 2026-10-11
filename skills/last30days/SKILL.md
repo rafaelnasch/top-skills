@@ -2164,3 +2164,10 @@ Want another prompt? Just tell me what you're creating next.
 **Bundled scripts:** `scripts/last30days.py` (main research engine), `scripts/lib/` (search, enrichment, rendering modules), `scripts/lib/vendor/bird-search/` (vendored X search client, MIT licensed)
 
 Review scripts before first use to verify behavior.
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

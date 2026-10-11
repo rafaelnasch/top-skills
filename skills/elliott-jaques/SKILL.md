@@ -76,7 +76,7 @@ usuário pedir explicitamente para ingerir, atualizar ou salvar material na skil
 
 ## Biblioteca de fontes e como a skill cresce
 
-Esta skill consome as **referências curadas** (`references/*.md`) — não material bruto. Material novo indicado pelo usuário (ePubs, PDFs ou notas) pode entrar em `sources/`, que **não é lido** numa conversa normal. As referências necessárias já estão incluídas neste pacote.
+Esta skill consome as **referências curadas** (`references/*.md`) — não material bruto. Material novo indicado pelo usuário (ePubs, PDFs ou notas) pode entrar em `sources/inbox/`, que **não é lido** numa conversa normal. As referências necessárias já estão incluídas neste pacote.
 
 Quando o usuário pedir explicitamente para ingerir ou salvar material novo, siga o
 **playbook em `INGEST.md`** e registre procedência. Material apenas apresentado para
@@ -102,3 +102,10 @@ análise permanece somente leitura.
 8. **Pagamento justo se mede.** Felt-fair pay rastreia o time-span (r≈0,89); diferencial salarial sem régua gera guerra permanente.
 9. **A hierarquia bem feita é humana.** Ela casa complexidade com capacidade e faz as pessoas sentirem que a organização se importa. O vilão é o arbitrário, não o vertical.
 10. **Termine com uma medição, não uma opinião.** O próximo passo é sempre mensurável: o by-when a levantar, o stratum a confirmar, a autoridade a instituir.
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

@@ -61,3 +61,10 @@ Veja `references/01-architecture.md` para o detalhe. Esqueleto:
 6. **Enxuto vence.** SKILL.md < ~120 linhas; referências curtas com ponteiros. Se inflar, quebre em mais um nível.
 7. **Toda skill nasce com a camada de crescimento.** Sem `sources/` + `INGEST.md`, ela congela no dia 1.
 8. **Self-audit antes de declarar pronto.** Rode `references/04-quality-bar.md` em silêncio e corrija inline.
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

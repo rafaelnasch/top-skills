@@ -877,3 +877,10 @@ Once the files are successfully written and merged, run **Step 9.5**, then proce
 6. **Chapter files are on-demand** — they don't count against skill budget until loaded
 7. **Never copy raw book text** — always synthesize, summarize, extract signal
 8. **Topic index is critical** — it's how the agent navigates to the right chapter file
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

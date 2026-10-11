@@ -7,5 +7,6 @@ __pycache__/
 !.env.example
 storage_state.json
 context.json
-skills/*/sources/*
-!skills/*/sources/README.md
+# Apenas entradas novas sem revisão ficam fora da distribuição pública.
+skills/*/sources/inbox/
+skills/*/sources/raw/

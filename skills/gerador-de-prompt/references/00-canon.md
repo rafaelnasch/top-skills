@@ -19,8 +19,8 @@ A evolução da disciplina é o **context engineering** — curar tudo que o mod
 
 1. **Emergência de escala.** CoT só paga em modelos grandes (~100B+, Wei 2022); em modelo pequeno a cadeia é fluente porém ilógica. Técnica não conserta modelo insuficiente.
 2. **Demonstrações ensinam formato, não conteúdo.** Min et al. 2022: labels aleatórios quase não degradam few-shot — o que importa é espaço de labels, distribuição dos inputs e formato. Corolário: capriche no formato dos exemplos, não na perfeição dos rótulos.
-3. **O fim do prompt tem mais peso.** Instruções críticas e persona perto do fim; dados no meio ([[fim-do-prompt-tem-mais-peso]]).
-4. **Curse of instructions.** Quanto mais regras empilhadas, menor a aderência a cada uma — separe em blocos, prefira exemplos, corte o que não paga ([[curse-of-instructions]]).
+3. **Teste a posição das instruções.** A posição pode influenciar a resposta; compare alternativas no modelo-alvo. Colocar o contrato próximo da resposta é uma heurística, não uma lei universal ([fim-do-prompt-tem-mais-peso](../sources/conceitos/fim-do-prompt-tem-mais-peso.md)).
+4. **Curse of instructions.** Quanto mais regras empilhadas, menor a aderência a cada uma — separe em blocos, prefira exemplos, corte o que não paga ([curse-of-instructions](../sources/conceitos/curse-of-instructions.md)).
 5. **Exemplos > regras abstratas.** É como os system prompts de produção do Claude condicionam comportamento: categorias explícitas, cada uma com exemplos concretos.
 6. **A escada:** zero-shot → few-shot → CoT → self-consistency/ToT → RAG/PAL/ReAct → otimização automática. Sobe-se com falha demonstrada, nunca por estética.
 7. **Saída é contrato.** Estrutura + campos obrigatórios + critérios de aceitação + cláusula de parada ("se faltar info crítica, liste e pare").
@@ -43,7 +43,7 @@ A evolução da disciplina é o **context engineering** — curar tudo que o mod
 
 - "**Let's think step by step**" — Kojima et al. 2022 (zero-shot CoT; MultiArith 17.7%→78.7%).
 - "**Let's work this out in a step by step way to be sure we have the right answer.**" — instrução descoberta pelo APE (Zhou et al. 2022), superou a humana.
-- "**Take a deep breath and work on this problem step-by-step**" — descoberta pelo OPRO (Yang et al. 2023), +8 pts no GSM8K com PaLM 2-L.
+- "**Take a deep breath and work on this problem step-by-step**" — descoberta pelo OPRO (Yang et al. 2023), 80,2% contra 71,8% no GSM8K, diferença de 8,4 pontos percentuais com PaLM 2-L como avaliador (Tabela 1 do paper).
 - "LLMs são **prompt engineers de nível humano**" — tese do paper do APE.
 - "Curar **o que o modelo vê** para obter um resultado melhor" — a definição de context engineering (Bharani Subramaniam/Böckeler), a fronteira de cima desta skill.
 

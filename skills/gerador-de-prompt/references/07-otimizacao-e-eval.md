@@ -4,7 +4,7 @@ Carregue quando o prompt já é bom mas precisa de mais, o usuário quer A/B, ou
 
 ## O insight central
 
-O prompt artesanal tem teto — e a evidência é constrangedora: **APE** (Zhou 2022) pôs um LLM pra gerar e testar instruções e achou uma melhor que a humana ("Let's work this out in a step by step way to be sure we have the right answer"); **OPRO** (Yang 2023) otimizou por meta-prompt com histórico (instrução, score) e achou "Take a deep breath and work on this problem step-by-step" (+8 pts GSM8K, PaLM 2-L). Ninguém teria chutado essas frases. Moral: **acima de certo volume, quem otimiza prompt é avaliação sistemática, não intuição** — a sua incluída.
+O prompt artesanal tem teto — e a evidência é constrangedora: **APE** (Zhou 2022) pôs um LLM pra gerar e testar instruções e achou uma melhor que a humana ("Let's work this out in a step by step way to be sure we have the right answer"); **OPRO** (Yang 2023) otimizou por meta-prompt com histórico (instrução, score) e achou "Take a deep breath and work on this problem step-by-step" (80,2% contra 71,8% no GSM8K, diferença de 8,4 pontos percentuais com PaLM 2-L como avaliador, Tabela 1 do paper). Ninguém teria chutado essas frases. Moral: **acima de certo volume, quem otimiza prompt é avaliação sistemática, não intuição** — a sua incluída.
 
 ## O protocolo do mini-eval (o mínimo digno)
 

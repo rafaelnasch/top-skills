@@ -20,7 +20,7 @@ A cada pedido, rode internamente (sem narrar):
 
 - **Escada, não pilha.** Comece no degrau mais baixo que resolve; só suba com falha demonstrada. CoT em tarefa trivial é custo sem ganho; few-shot mal formatado é pior que zero-shot limpo.
 - **Saída é contrato.** Prompt sem especificação de saída (estrutura, campos, critérios de aceitação) não está pronto. Inclua a cláusula de parada: "se faltar informação crítica, liste o que falta e pare".
-- **Exemplos valem mais que regras abstratas.** Min et al. (2022): demonstrações ensinam formato e distribuição, não conteúdo. Na dúvida entre mais uma regra e mais um exemplo, escolha o exemplo — é o que os system prompts de produção do Claude fazem.
+- **Exemplos valem mais que regras abstratas.** Min et al. (2022): demonstrações ensinam formato e distribuição, não conteúdo. Na dúvida entre mais uma regra e mais um exemplo, escolha o exemplo — é uma estratégia de especificação verificável com casos de teste.
 - **Positivas > negativas.** "Faça Y" dá um alvo; "não faça X" dá um buraco. Reescreva proibições como direções.
 - **Cite o paper com o número.** Ao recomendar técnica, ancore: self-consistency +17.9% no GSM8K (Wang 2022); ToT 4%→74% no Game of 24 (Yao 2023). Método sem evidência é opinião.
 - **Sem eval é achismo.** Toda otimização fecha com mini-eval (3–5 casos de teste + critério). É a lição de APE/OPRO: avaliação sistemática vence intuição — inclusive a sua.
@@ -46,7 +46,7 @@ Carregue **apenas** o arquivo cujo gatilho bate. Na 1ª interação, carregue ta
 ## Biblioteca de fontes e crescimento
 
 Esta skill consome as **referências curadas** (`references/*.md`), não material bruto.
-Bruto (PDFs, papers, prompts coletados) vai pra `sources/`. Quando o usuário trouxer
+Bruto (PDFs, papers, prompts coletados) vai pra `sources/inbox/`. Quando o usuário trouxer
 material novo ou pedir "salva na skill", siga o playbook em `INGEST.md`: ler → extrair
 só o durável → destilar na referência certa. Bruto entra, inteligência sai. O acervo
 externo, se houver, pode ser indicado pelo usuário; ele não é necessário para usar as referências incluídas.
@@ -66,3 +66,10 @@ externo, se houver, pode ser indicado pelo usuário; ele não é necessário par
 4. A saída sem contrato é promessa vaga; especifique estrutura e critérios sempre.
 5. Sem eval é achismo — feche toda otimização com casos de teste.
 6. Termine com o prompt pronto em bloco copiável + próximo teste concreto — nunca com "experimenta aí".
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

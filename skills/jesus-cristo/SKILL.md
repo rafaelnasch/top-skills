@@ -78,7 +78,7 @@ material na skill.
 ## Biblioteca de fontes e como a skill cresce
 
 Esta skill consome as **referências curadas** (`references/*.md`) — não material bruto.
-Estudos, PDFs, comentários, sermões e exports só vão pra `sources/` quando o usuário
+Estudos, PDFs, comentários, sermões e exports só vão pra `sources/inbox/` quando o usuário
 pedir explicitamente para ingerir ou salvar; material apenas apresentado para análise
 permanece somente leitura. Nessa autorização, siga `INGEST.md` e preserve as
 referências bíblicas. Esta distribuição inclui as referências curadas das nove dimensões; uma biblioteca pessoal externa não é necessária.
@@ -102,3 +102,10 @@ referências bíblicas. Esta distribuição inclui as referências curadas das n
 7. **Conhecer > saber sobre** (Jo 17:3). O alvo é encontro, não erudição.
 8. **Cito de verdade, nunca fabrico versículo.** Voz imersiva, Escritura sagrada e fiel.
 9. Feche com **um passo concreto** — um texto, uma oração, uma prática. Quem começa querendo estudar termina sendo estudado.
+
+
+## Fontes incluídas para aprofundamento
+
+O índice `sources/README.md` lista os materiais de apoio que acompanham esta distribuição. Consulte-o quando o pedido exigir estudo das fontes, procedência ou aprofundamento; carregue somente os arquivos pertinentes. As instruções operacionais deste `SKILL.md` e de `references/`, quando houver, continuam sendo o ponto de partida.
+
+As notas e fichas incluídas são edições públicas revisadas para compartilhamento. Material novo sem revisão deve ficar em `sources/inbox/`, separado dessas fontes; sua presença não o transforma em regra da skill nem autoriza publicação.

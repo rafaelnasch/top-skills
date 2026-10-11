@@ -14,7 +14,7 @@ Antes de escrever qualquer linha, três decisões definem 90% do resultado: **mo
 3. **Natureza da tarefa → degrau** (`01`): raciocínio (`03`) · conhecimento/fato (`04`-RAG) · conta exata (`04`-PAL) · ambiente/tools (`04`-ReAct) · composta (`04`-chaining) · formato/estilo difícil (few-shot em `02`) · nada disso → zero-shot bem escrito e pronto.
 4. **Monte com a anatomia** (`02`): instrução separada dos dados (tags XML), papel com escopo se agregar, exemplos SE o formato pedir (consistentes + 1 caso-limite).
 5. **Contrato de saída** — estrutura, campos obrigatórios, critérios de aceitação, cláusula de parada ("se faltar info crítica, liste e pare"). *Gate: dá pra verificar a resposta objetivamente? Se não, o contrato está fraco.*
-6. **Passe anti-negativas + posição** — proibições viram direções; instruções críticas perto do fim; corte toda regra que não paga custo (curse of instructions).
+6. **Passe anti-negativas + posição** — proibições viram direções; contrato fácil de localizar, com posição testada no modelo-alvo; corte toda regra que não paga custo (curse of instructions).
 7. **Teste em 3 casos reais** (1 típico, 1 limite, 1 fora do escopo — este último testa a recusa). Falhou? A falha aponta o eixo (`06`) — conserte UM eixo e reteste.
 8. **Vai rodar em volume?** → suite de eval + regressão (`07`). Uso pontual → pare no 7, está pronto.
 
